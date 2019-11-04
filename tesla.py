@@ -10,7 +10,7 @@ import logging
 
 URL = "https://www.tesla.com/api.php"
 MODELS = ["m3", "s", "mx"]
-ATTRIBUTES = ["Model", "PAINT", "TRIM", "INTERIOR", "WHEELS", "AUTOPILOT"]
+ATTRIBUTES = ["Model", "PAINT", "TRIM", "INTERIOR", "WHEELS", "AUTOPILOT", "ADL_OPTS"]
 
 PORT = 8000
 INTERVAL = datetime.timedelta(minutes=5)
